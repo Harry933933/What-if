@@ -1,0 +1,14 @@
+#ff{
+    cursor: pointer;
+    font-size: 60px; 
+    background-color: rgb(0, 240, 255); 
+    border-radius: 10px; 
+    position:absolute; 
+    right: 500px;
+    top: 100px;
+    box-shadow: 5px 5px 5px blue;
+}
+
+#ff:hover{
+    background-color: rgb(0, 208, 255); 
+}

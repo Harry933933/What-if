@@ -1,0 +1,83 @@
+body{
+    background-color: #fa4a4a;
+}
+
+.navbar a {
+    font-size: 35.97px;
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    background-color: rgb(140, 140, 242);
+    transition: background-color 0.5s;
+}
+
+.navbar {
+    position: fixed;
+    margin: 0px 40px 0px 0px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px 40px 40px 0px;
+    overflow: hidden;
+}
+
+.navbar a:hover {
+    background-color: rgb(112, 112, 235);
+}
+
+.navbar li {
+    float: left;
+}
+
+.content {
+    margin-top: 40px;
+    padding: 50px;
+    overflow-wrap: break-word; /* Added property to wrap long words */
+}
+
+#alltext {
+    font-size: 50px;
+    font-weight: 1000;
+    color: purple;    
+    background-color: #32e747;
+    border-style: dashed;
+    border-radius: 20px;
+    border-width: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#allimages{
+    color: purple;    
+    background-color: #32e747;
+    border-style: dashed;
+    border-radius: 20px;
+    border-width: 10px;
+    display: block;
+    margin: auto;
+}
+
+pre {
+    white-space: pre-wrap; /* Preserve line breaks */
+    word-wrap: break-word; /* Wrap long lines */
+    overflow: auto; /* Add scrollbars if necessary */
+}
+
+
+#f{
+    cursor: pointer;
+    font-size: 60px; 
+    background-color: rgb(0, 240, 255); 
+    border-radius: 10px; 
+    position:absolute; 
+    right: 10px;
+    box-shadow: 5px 5px 5px blue;
+    transform: 5s;
+}
+
+#f:hover {
+    background-color: rgb(0, 200, 255); 
+}
